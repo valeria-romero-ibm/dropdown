@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.App button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropdown .dropdownBtn{
+  margin-top: 20px;
+  background-color: rgb(16, 108, 183);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: larger;
+  padding: 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.dropdown li{
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  list-style: none;
+  text-align: start;
+  padding: 7px 0;
+  padding-left: 10px;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+
